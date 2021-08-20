@@ -7,7 +7,6 @@
   - [终端代理](#终端代理)
   - [git 代理](#git-代理)
   
-
 ## 配置硬件时钟
 ``` bash
 sudo timedatectl set-ntp no
@@ -46,7 +45,7 @@ Acquire::socks5::proxy "socks://proxyAddress:port";
 ```bash
 sudo pip3 install jetson-stats --proxy=http://proxyAddress:port
 ```
-pip 不支持 socks5 代理
+pip 不支持socks5 代理
 
 ### 终端代理
 开启
@@ -71,3 +70,5 @@ git config --global https.proxy 'socks5://proxyAddress:port'
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
+
+
