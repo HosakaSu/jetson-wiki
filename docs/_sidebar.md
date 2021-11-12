@@ -3,4 +3,5 @@
   - [内核编译](jetsonnano/kernel_build.md)
   - [添加mcp2518 驱动](jetsonnano/mcp2518_driver.md)
   - [相关配置操作](jetsonnano/nano_config.md)
+  - [系统刷机](jetsonnano/nano_dtb.md)
 - [JetsonTX2](embedded/stm32/README.md)
