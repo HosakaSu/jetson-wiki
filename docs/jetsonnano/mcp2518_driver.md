@@ -38,6 +38,7 @@ seeed 提供的设备树文件 2xMCP2518FD-spi0.dts 在SPI0 下挂在了两片mc
 最后, 还需要修改pinmux 中的管脚定义, 将原有的SPI0 管脚改为SPI1
 ## 编译安装dtb
 ```bash
+export CUSTOM_MOD_LIST="CAN-HAT"
 make all_jetsonnano
 sudo -E make install_jetsonnano
 sudo cp overlays/jetsonnano/2xMCP2518FD-spi1.dtbo /boot
